@@ -9,7 +9,7 @@ console.log("Read: " + input + "\nFrom: " + infile);
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send(input.toString('utf-8', 0, input.length);
+  response.send(input.toString('utf-8', 0, input.length));
 });
 
 var port = process.env.PORT || 5000;
